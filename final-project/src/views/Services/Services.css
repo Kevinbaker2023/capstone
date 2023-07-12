@@ -1,0 +1,51 @@
+.services-btn {
+    position: absolute;
+    bottom: 0;
+    margin-left: 13.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-list {
+    padding: 1rem 1rem 4rem 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.services-card {
+    margin: 1rem;
+}
+
+.img1 {
+    height: 20rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+
+.img2 {
+    height: 20rem;
+    margin-left: 36rem;
+    margin-top: 2rem;
+}
+
+.img3 {
+    height: 20rem;
+    width: 16rem;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+}
+
+.img4 {
+    height: 20rem;
+    width: 16rem;
+    margin-left: 36rem;
+    margin-bottom: 1rem;
+}
+
+.card-head {
+    background-color: #E7E8D1;
+}
+
+#services {
+    border-radius: 25px;
+}

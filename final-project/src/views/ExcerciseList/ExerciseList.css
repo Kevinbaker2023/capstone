@@ -1,0 +1,81 @@
+.exercise-ul {
+    text-align: center;
+    list-style: none;
+    background-color: #E7E8D1;
+}
+
+.exercise-ol {
+    text-align: center;
+    list-style-position: inside;
+    list-style: none;
+    background-color: #E7E8D1;
+}
+
+.exercise-list {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.exercise-title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.search-form {
+    border-style: solid;
+    border-radius: 50px;
+    width: 30rem;
+    height: 7.5rem;
+    margin-bottom: 2rem;
+}
+
+.muscle-search {
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+.muscle-label {
+    margin-left: 1rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.video {
+    position: absolute;
+    bottom: 0;
+    margin-left: 13rem;
+    margin-bottom: 10px;
+}
+
+.video1 {
+    margin-left: 13rem;
+    margin-bottom: 10px;
+}
+.cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#exercise-card {
+    width: 30rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+#steps {
+    padding-bottom: 1.5rem;
+}
+
+#card-name {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#card-instructions {
+    text-align: center;
+    padding-bottom: .5rem;
+    text-decoration: underline;
+}

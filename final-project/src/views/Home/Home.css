@@ -1,0 +1,72 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.about-sect {
+    border-style: solid;
+    padding: 1rem;
+    margin: 3rem 1rem 1rem 1rem;
+    border-radius: 25px;
+    width: 50rem;
+    height: 20rem;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.training-1 {
+    position: absolute;
+    left: 0;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.training-2 {
+    position: absolute;
+    right: 0;
+    margin-top: 3rem;
+    margin-right: 10rem;
+}
+
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    width: 70rem;
+    height: 60vh;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.review-cards {
+    margin: 1rem;
+}
+
+.review-name {
+    position: absolute;
+    bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+ .review-date {
+    position: absolute;
+    bottom: 0;
+    margin-left: 27rem;
+    margin-bottom: 10px;
+ }
+.review-bottom {
+    padding-top: 1rem;
+}
+
+#review {
+    padding: 1rem;
+    border-radius: 25px;
+}

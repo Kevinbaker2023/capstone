@@ -1,0 +1,70 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.create-form {
+    margin-top: 10rem;
+    margin-right: 2rem;
+    border-style: solid;
+    width: 28rem;
+    height: 26.5rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.signup-icon {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.signup-title {
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 1.5rem;
+}
+
+.first-name {
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    height: 2rem;
+    width: 12rem;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.last-name {
+    width: 12rem;
+    text-align: center;
+    height: 2rem;
+    border-radius: 50px;
+}
+
+.email {
+    text-align: center;
+    margin-left: 2.6rem;
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 50px;
+}
+
+.password {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    width: 14rem;
+    height: 2rem;
+    margin-left: 6rem;
+    border-radius: 50px;
+}
+
+.login-link {
+    color: #668dcc;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+#create-btn {
+    margin-bottom: 1.1rem;
+}
