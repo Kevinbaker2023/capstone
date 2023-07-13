@@ -17,7 +17,6 @@
 .signin-icon {
     text-align: center;
     margin-bottom: 1rem;
-    color: rgb(0, 157, 255);;
 }
 
 .signin-title {
@@ -49,4 +48,5 @@
     height: 2rem;
     margin-bottom: 1.5rem;
     padding-top: .2rem;
+    background-color: #E0A96D;
 }

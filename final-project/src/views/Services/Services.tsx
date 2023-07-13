@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom"
 import './Services.css'
 import NavBar from "../../components/NavBar/NavBar"
+import { useEffect } from "react"
 
 
 const Services = () => {
+  useEffect(() => {
+        document.title = 'Services'
+    }, [])
   return (
     <>
     <NavBar />
@@ -28,7 +32,7 @@ const Services = () => {
                 <li>1 Hour sessions unless otherwise discussed!</li>
               </ul>
             </div>
-            <Link className="services-btn btn btn-info rounded-pill" to='/schedule'>Contact Me</Link>
+            <Link to='/schedule'><button className="btn rounded-pill" id="contact-btn">Contact Me</button></Link>
           </div>
           <div className="card" id="services">
             <div className="card-block">
@@ -50,7 +54,7 @@ const Services = () => {
                 </ul>
               </div>
             </div>
-            <Link className="services-btn btn btn-info rounded-pill" to='/schedule'>Contact Me</Link>
+            <Link to='/schedule'><button className="btn rounded-pill" id="contact-btn">Contact Me</button></Link>
           </div>
           <div className="card" id="services">
             <div className="card-block">
@@ -69,7 +73,7 @@ const Services = () => {
                 <li>Help with food/snacks in between meals</li>
               </ul>
             </div>
-            <Link className="services-btn btn btn-info rounded-pill" to='/schedule'>Contact Me</Link>
+            <Link to='/schedule'><button className="btn rounded-pill" id="contact-btn">Contact Me</button></Link>
           </div>
         </div>
       </div>

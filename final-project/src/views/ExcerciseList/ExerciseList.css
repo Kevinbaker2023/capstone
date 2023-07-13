@@ -1,14 +1,14 @@
 .exercise-ul {
     text-align: center;
     list-style: none;
-    background-color: #E7E8D1;
+    background-color: #E0A96D;
 }
 
 .exercise-ol {
     text-align: center;
     list-style-position: inside;
     list-style: none;
-    background-color: #E7E8D1;
+    background-color: #E0A96D;
 }
 
 .exercise-list {
@@ -19,7 +19,7 @@
 
 .exercise-title {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
 }
 
@@ -29,6 +29,7 @@
     width: 30rem;
     height: 7.5rem;
     margin-bottom: 2rem;
+    background-color: white;
 }
 
 .muscle-search {
@@ -78,4 +79,22 @@
     text-align: center;
     padding-bottom: .5rem;
     text-decoration: underline;
+}
+
+#search-btn, #video-btn, #save-btn {
+    background-color: #E0A96D;
+}
+
+#video-btn, #save-btn{
+    border: none;
+    margin-bottom: .5rem;
+    padding: .5rem;
+}
+
+#video-btn {
+    margin-left: 4rem;
+}
+
+#save-btn {
+    margin-left: 30rem;
 }

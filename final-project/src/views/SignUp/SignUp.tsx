@@ -38,7 +38,7 @@ const SignUp = () => {
           <div className='signin-icon'>
             <FitnessCenterIcon sx={{ fontSize: 60}}/>
           </div>
-          <h2 className='signup-title'>SignUp</h2>
+          <h2 className='signup-title'>Sign Up</h2>
           <input className='first-name' name='first-name' type='name' placeholder='Enter First Name' />
           <input className='last-name' name='last-name' type='name' placeholder='Enter Last Name' />
           <input className='email' name='email' type='email' placeholder='Enter Email'
@@ -46,7 +46,7 @@ const SignUp = () => {
           <input className='password' name='password' type='password' placeholder='Enter Password'
             onChange={(event) => setPassword(event.target.value)} />
           <div>
-            <button className='btn btn-info rounded-pill d-block mx-auto' id='create-btn' type='submit'>Create Account</button>
+            <button className='btn rounded-pill d-block mx-auto' id='create-btn' type='submit'>Create Account</button>
           </div>
           <Link to='/signin' className='login-link'>Already Have an Account?</Link>
         </form>

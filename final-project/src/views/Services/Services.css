@@ -1,8 +1,9 @@
-.services-btn {
+#contact-btn {
     position: absolute;
     bottom: 0;
     margin-left: 13.5rem;
     margin-bottom: 1rem;
+    background-color: #E0A96D;
 }
 
 .service-list {
@@ -20,12 +21,16 @@
     height: 20rem;
     margin-left: 20rem;
     margin-top: 2rem;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px;
 }
 
 .img2 {
     height: 20rem;
     margin-left: 36rem;
     margin-top: 2rem;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px;
 }
 
 .img3 {
@@ -33,6 +38,8 @@
     width: 16rem;
     margin-left: 20rem;
     margin-bottom: 1rem;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px;
 }
 
 .img4 {
@@ -40,10 +47,12 @@
     width: 16rem;
     margin-left: 36rem;
     margin-bottom: 1rem;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px;
 }
 
 .card-head {
-    background-color: #E7E8D1;
+    background-color: #E0A96D;
 }
 
 #services {

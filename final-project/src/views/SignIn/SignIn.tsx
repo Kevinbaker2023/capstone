@@ -41,13 +41,13 @@ const SignIn = () => {
           <div className='signin-icon'>
             <FitnessCenterIcon sx={{ fontSize: 60}}/>
           </div>
-          <h2 className='signin-title'>SignIn</h2>
+          <h2 className='signin-title'>Sign In</h2>
           <input className='email-login' name='email' type='email' placeholder='Enter Email'
             onChange={(event) => setEmail(event.target.value)} />
           <input className='password-login' name='password' type='password' placeholder='Enter Password'
             onChange={(event) => setPassword(event.target.value)} />
           <div>
-            <button className='btn btn-info rounded-pill d-block mx-auto' id='login-btn' type='submit'>SignIn</button>
+            <button className='btn rounded-pill d-block mx-auto' id='login-btn' type='submit'>Sign In</button>
           </div>
           <Link to='/signup' className='login-link'>Need an Account?</Link>
         </form>

@@ -41,17 +41,20 @@ const NavBar = () => {
                 {user ?
                     <>
                         <li className="nav-item">
-                            <Link className="nav-link text-dark" to="/">Home</Link>
+                            <Link className="nav-link text-light" to="/">Home</Link>
                         </li>
                         <li className="nav-item"></li>
                         <li className="nav-item">
-                            <Link className="nav-link text-dark" to="/exercise">Exercise Search</Link>
+                            <Link className="nav-link text-light" to="/exercise">Exercise Search</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-dark" to="/services">Services</Link>
+                            <Link className="nav-link text-light" to="/plan">Workout Plan</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-dark" to="/schedule">Book With Me</Link>
+                            <Link className="nav-link text-light" to="/services">Services</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-light" to="/schedule">Book With Me</Link>
                         </li>
                         <li>
                         <button className="signout-btn" onClick={handleSignout}>Sign Out</button>
@@ -60,10 +63,10 @@ const NavBar = () => {
                     :
                     <>
                         <li className="nav-item">
-                            <Link className="nav-link text-dark" to="/">Home</Link>
+                            <Link className="nav-link text-light" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-dark" to="/signup">Signup/SignIn</Link>
+                            <Link className="nav-link text-light" to="/signup">Sign Up/Sign In</Link>
                         </li>
                     </>
                 }

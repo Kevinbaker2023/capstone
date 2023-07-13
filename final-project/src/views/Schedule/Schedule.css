@@ -9,6 +9,7 @@
     margin-bottom: 2rem;
     border-radius: 25px;
     height: 25.85rem;
+    background-color: white;
 }
 
 .name-contact, .email-contact, .message-contact {
@@ -25,6 +26,7 @@
     margin-left: 82rem;
     border-radius: 25px;
     margin-bottom: 5rem;
+    background-color: white;
 }
 
 .location {
@@ -35,11 +37,12 @@
     border-radius: 50px;
 }
 
-#contact-btn {
-    margin-top: 2rem;
-    margin-bottom: .5rem;
-}
 
 #contact-title {
     text-align: center;
+}
+
+#contact-me-btn {
+    background-color: #E0A96D;
+    margin-top: 2rem;
 }

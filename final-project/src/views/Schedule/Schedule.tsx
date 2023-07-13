@@ -56,8 +56,8 @@ const Schedule = () => {
               <div className="">
                 <button
                   type="submit"
-                  className="btn btn-info rounded-pill d-block mx-auto"
-                  id="contact-btn"
+                  className="btn rounded-pill d-block mx-auto"
+                  id="contact-me-btn"
                 >
                   Contact Me
                 </button>
