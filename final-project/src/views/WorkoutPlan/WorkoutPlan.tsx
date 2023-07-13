@@ -12,6 +12,9 @@ interface WPlan {
     video: string
 }
 const WorkoutPlan = () => {
+    useEffect(() => {
+        document.title = 'Workout Plan'
+      }, [])
     const [workouts, setWorkouts] = useState<WPlan[]>([])
 
     useEffect(() => {
