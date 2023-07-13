@@ -40,18 +40,18 @@ const NavBar = () => {
             <ul className="nav justify-content-center navbar">
                 {user ?
                     <>
+                        <li className="text-light" id='title'>MoFitness</li>
                         <li className="nav-item">
                             <Link className="nav-link text-light" to="/">Home</Link>
                         </li>
-                        <li className="nav-item"></li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-light" to="/services">Services</Link>
+                        </li>
                         <li className="nav-item">
                             <Link className="nav-link text-light" to="/exercise">Exercise Search</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-light" to="/plan">Workout Plan</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link text-light" to="/services">Services</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-light" to="/schedule">Book With Me</Link>
@@ -62,6 +62,7 @@ const NavBar = () => {
                     </>
                     :
                     <>
+                        <li className="text-light" id='title'>MoFitness</li>
                         <li className="nav-item">
                             <Link className="nav-link text-light" to="/">Home</Link>
                         </li>

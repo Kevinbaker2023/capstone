@@ -37,9 +37,13 @@
     border-radius: 50px;
 }
 
+.location-title {
+    padding-top: .5rem;
+}
 
 #contact-title {
     text-align: center;
+    padding-top: 1rem;
 }
 
 #contact-me-btn {

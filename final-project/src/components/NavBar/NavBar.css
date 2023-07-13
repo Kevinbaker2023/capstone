@@ -8,6 +8,8 @@
     background-color: #E7E8D1;
 }
 
-#nav-text {
-    color: white;
+#title {
+    position: absolute;
+    left: 1%;
+    font-size: 2rem;
 }
